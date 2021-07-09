@@ -34,9 +34,6 @@
         left: none;
         
       }
-      .section1{
-        flex-direction: column;
-      }
       .title-text{
         display: none;
       }
