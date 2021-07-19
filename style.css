@@ -16,6 +16,14 @@
   top: 3.5cm;
   left: -3.5cm;
 }
+.category{
+  transform: rotate(-90deg);
+  position: fixed;
+  bottom: 100px;
+  left:-2.2cm;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
 .vh{
     height: 40vh;
 }
@@ -33,9 +41,6 @@
         top: none;
         left: none;
         
-      }
-      .section1{
-        flex-direction: column;
       }
       .title-text{
         display: none;
