@@ -1,0 +1,54 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+.section1{
+  background-color: rgb(230, 228, 228);  
+}
+.footer-text{
+    font-size: 12px;
+}
+.title-text{
+    font-size: 92px;
+}
+.transforms{
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 3.5cm;
+  left: -3.5cm;
+}
+.category{
+  transform: rotate(-90deg);
+  position: fixed;
+  bottom: 100px;
+  left:-2.2cm;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+.vh{
+    height: 40vh;
+}
+.hidden{
+    display: none;
+}
+
+@media only screen and (max-width: 990px) {
+    .title-text{
+        font-size: 70px;
+    }
+    .transforms{
+        transform: rotate(0deg);
+        position: none;
+        top: none;
+        left: none;
+        
+      }
+      .title-text{
+        display: none;
+      }
+      .vh{
+        height: 2vh;
+    }
+    .hidden{
+        display: inline;
+    }
+  }
