@@ -58,7 +58,11 @@
         display: inline;
     }
     .category{
-      display: none;
+      writing-mode: horizontal-tb;
+      -ms-transform: rotate(0deg); 
+      transform: rotate(0deg);
+      position: relative;
+
     }
     .section1{
       margin: 0;
