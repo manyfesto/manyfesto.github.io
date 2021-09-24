@@ -1,5 +1,4 @@
-let names = ['R. Buse Çetin', 'Jessica Fjeld', 'Malavika Jayaram', 'Paola Ricaurte Quijano', 'John Havens', 'Sabelo Mhlambi']
-
+let names = ['R. Buse Çetin', 'Jessica Fjeld', 'Malavika Jayaram', 'Paola Ricaurte Quijano', 'John C. Havens', 'Sabelo Mhlambi']
 document.getElementById("names").onload = function () { shuffle() };
 
 function shuffle(array) {
