@@ -1,5 +1,7 @@
 let names = ['R. Buse Çetin', 'Jessica Fjeld', 'Malavika Jayaram', 'Paola Ricaurte Quijano', 'John C. Havens', 'Sabelo Mhlambi']
+if(document.getElementById("names")){
 document.getElementById("names").onload = function () { shuffle() };
+}
 
 function shuffle(array) {
     var currentIndex = array.length, randomIndex;
@@ -17,6 +19,8 @@ function shuffle(array) {
 
 shuffle(names)
 let Names = names.join(', ')
+if(document.getElementById("names")){
 document.getElementById("names").innerHTML = Names;
+}
 
 
