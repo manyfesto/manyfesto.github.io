@@ -66,6 +66,9 @@ nav{
   .title-text {
     display: none;
   }
+  .title-{
+    display: none;
+  }
   .vh {
     height: 2vh;
   }
