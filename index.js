@@ -12,8 +12,13 @@ let names = ['R. Buse Çetin', 'Jessica Fjeld', 'Malavika Jayaram', 'Paola Ricau
     'Ravit Dotan',
     'Sara Jordan',
     'Sarita Rosenstock']
+
 if (document.getElementById("names")) {
     document.getElementById("names").onload = function () { shuffle() };
+}
+
+if (document.getElementById("name")) {
+    document.getElementById("name").onload = function () { shuffle() };
 }
 
 function shuffle(array) {
@@ -36,4 +41,7 @@ if (document.getElementById("names")) {
     document.getElementById("names").innerHTML = Names;
 }
 
+if (document.getElementById("name")) {
+    document.getElementById("name").innerHTML = Names;
+}
 
